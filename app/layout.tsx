@@ -7,8 +7,8 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "Ethel & Ernest",
-  description: "The best cartoon ever made!",
+  title: "Le Silence de La Mer",
+  description: "The best film ever made!",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -19,7 +19,7 @@ export const metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "Ethel & Ernest",
+    title: "Le Silence de La Mer",
     statusBarStyle: "default",
   },
 };
