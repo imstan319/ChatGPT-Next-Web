@@ -34,7 +34,7 @@ const cn = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + "，/ 触发补全";
+      return "请勿将本站接入的生成式人工智能服务（chatGPT）用于非法用途，您将自行承担由此引发的任何法律后果。";
     },
     Send: "发送",
     Config: {
