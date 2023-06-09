@@ -7,7 +7,7 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "Le Silence de La Mer",
+  title: "Le Silence de la Mer",
   description: "The best film ever made!",
   viewport: {
     width: "device-width",
