@@ -19,7 +19,7 @@ export const metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "Le Silence de La Mer",
+    title: "Le Silence de la Mer",
     statusBarStyle: "default",
   },
 };
