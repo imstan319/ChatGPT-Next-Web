@@ -184,7 +184,8 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "欢迎使用由OPENAI公司开发的chatGPT大语言模型，在此之前，您需要了解以下事项:<br>Q：什么是chatGPT？",
+    var faq = "\nQ：什么是chatGPT？
+    BotHello: "欢迎使用由OPENAI公司开发的chatGPT大语言模型，在此之前，您需要了解以下事项:<br>Q：什么是chatGPT？" + faq,
 
 
     Error: "出错了，稍后重试吧",
