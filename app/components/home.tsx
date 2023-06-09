@@ -25,6 +25,15 @@ import { SideBar } from "./sidebar";
 import { useAppConfig } from "../store/config";
 import { AuthPage } from "./auth";
 
+/* 路由异常错误处理，尝试解析一个异步组件时发生错误，重新渲染目标页面 */
+router.onError((error) => {
+    const pattern = /Loading chunk (\d)+ failed/g;
+    const isChunkLoadFailed = error.message.match(pattern);
+    const targetPath = router.history.pending.fullPath;
+    if(isChunkLoadFailed){
+        router.replace(targetPath);
+    }
+})
 export function Loading(props: { noLogo?: boolean }) {
   return (
     <div className={styles["loading-content"] + " no-dark"}>
