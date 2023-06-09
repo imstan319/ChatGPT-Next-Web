@@ -1,3 +1,4 @@
+
 import { SubmitKey } from "../store/config";
 
 const cn = {
@@ -183,7 +184,9 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "欢迎使用由OPENAI公司开发的chatGPT大语言模型，在此之前，您需要了解以下事项："<br>Q：什么是chatGPT？<br>A：chatGPT是一种基于GPT模型的人工智能聊天机器人，可以与用户进行自然语言交互，并提供智能回复和建议。<br>Q：为什么chatGPT无法给出我想要的答案？<br>A：这取决于您的提问方式。为了提高AI回答的准确性，您需要详细阐述自己的要求，并且一步一步地引导AI。请发挥自己的信息检索能力去了解Prompt Engineering。<br>Q：我与chatGPT的聊天记录只有我自己才能看到吗？<br>A：是的，只有您本人才能看到。这些数据只会存在于您当前所使用的设备中，而不会以任何形式存储与本服务器及后台中。<br>Q：我能用chatGPT写作业吗？<br>A：emmmm，这难道不是它的主要用途之一吗？：）<br>Q：我是老师，我如何判断学生是否借助了AI完成作业？<br>A：这个请等我毕业之后再告诉您。（bushi）,
+
+
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
@@ -271,3 +274,5 @@ export type LocaleType = DeepPartial<typeof cn>;
 export type RequiredLocaleType = typeof cn;
 
 export default cn;
+                                     
+                                     
