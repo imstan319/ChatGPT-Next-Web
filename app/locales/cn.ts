@@ -184,7 +184,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    var faq = "\nQ：什么是chatGPT？
+    var faq = "\nQ：什么是chatGPT？\nA：chatGPT是一种基于GPT模型的人工智能聊天机器人，可以与用户进行自然语言交互，并提供智能回复和建议。"
     BotHello: "欢迎使用由OPENAI公司开发的chatGPT大语言模型，在此之前，您需要了解以下事项:<br>Q：什么是chatGPT？" + faq,
 
 
