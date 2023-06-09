@@ -1,4 +1,3 @@
-
 import { SubmitKey } from "../store/config";
 
 const cn = {
@@ -35,7 +34,7 @@ const cn = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return "请勿将本站接入的生成式人工智能服务（chatGPT）用于非法用途，您将自行承担由此引发的任何法律后果。";
+      return inputHints + "，/ 触发补全";
     },
     Send: "发送",
     Config: {
@@ -184,10 +183,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    var faq = "\nQ：什么是chatGPT？\nA：chatGPT是一种基于GPT模型的人工智能聊天机器人，可以与用户进行自然语言交互，并提供智能回复和建议。"
-    BotHello: "欢迎使用由OPENAI公司开发的chatGPT大语言模型，在此之前，您需要了解以下事项:<br>Q：什么是chatGPT？" + faq,
-
-
+    BotHello: "有什么可以帮你的吗",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
@@ -275,5 +271,3 @@ export type LocaleType = DeepPartial<typeof cn>;
 export type RequiredLocaleType = typeof cn;
 
 export default cn;
-                                     
-                                     
