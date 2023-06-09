@@ -35,7 +35,7 @@ const en: RequiredLocaleType = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += ", Shift + Enter to wrap";
       }
-      return inputHints + ", / to search prompts";
+      return "Please refrain from using the generative artificial intelligence service(chatGPT) integrated within this webstie,as you will be solely responsible for any legal consequences arising from such actions.";
     },
     Send: "Send",
     Config: {
