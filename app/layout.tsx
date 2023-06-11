@@ -7,7 +7,7 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "Le Silence de la Mer",
+  title: "Le Silence de la mer",
   description: "The best film ever made!",
   viewport: {
     width: "device-width",
@@ -19,7 +19,7 @@ export const metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "Le Silence de la Mer",
+    title: "Le Silence de la mer",
     statusBarStyle: "default",
   },
 };
