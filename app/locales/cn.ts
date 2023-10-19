@@ -47,7 +47,7 @@ const cn = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return "祝大家考试顺利：D 加油加油~~~"
+      return "war is hell"
     },
     Send: "发送",
     Config: {
