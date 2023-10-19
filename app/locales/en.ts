@@ -48,7 +48,7 @@ const en: RequiredLocaleType = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += ", Shift + Enter to wrap";
       }
-      return "祝大家考试顺利：D 加油加油~~~";
+      return "war is hell";
     },
     Send: "Send",
     Config: {
